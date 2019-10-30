@@ -30,27 +30,28 @@
         "only-arrow-functions": false,
         "trailing-comma": false,
         "triple-equals": false,
+        "ordered-imports": false,
         "indent": {
             "severity": "error",
             "options": [
                 "spaces",
-                4
+                2
             ]
         },
         "ter-indent": [
             true,
-            4
+            2
         ],
         "quotemark": {
             "severity": "warn",
             "options": [
-                "double"
+                "single"
             ]
         },
         "semicolon": {
             "severity": "error",
             "options": [
-                "always"
+                "never"
             ]
         },
         "no-unused-variable": {
